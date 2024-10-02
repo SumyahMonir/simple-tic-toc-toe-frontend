@@ -23,6 +23,7 @@ boxes.forEach((box) => {
         if (playerX) {
             playerX = false;
             box.innerText = "X";
+            box.style.color = 'rgb(0, 48, 73)';
         }
         else {
             playerX = true;
